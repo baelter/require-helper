@@ -3,9 +3,13 @@
   "version": "1.0.0",
   "description": "Require helper to avoid long relative paths",
   "main": "index.js",
+  "repository": "https://github.com/npolar/require-helper.git",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "anders.balter@npolar.no",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "callsite": "^1.0.0"
+  }
 }
